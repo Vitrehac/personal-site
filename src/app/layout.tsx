@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   },
   description:
     "Student founder, builder, and explorer. Building things that matter.",
+  icons: {
+    icon: "/favicon.png",
+  },
   openGraph: {
     title: "Vit Rehacek — Builder & Founder",
     description:
