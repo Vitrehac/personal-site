@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "home": "Domů",
+    "about": "O mně",
+    "projects": "Projekty",
+    "work": "Práce",
+    "photography": "Fotografie",
+    "timeline": "Časová osa",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "greeting": "Ahoj, jsem",
+    "name": "Tvoje Jméno",
+    "tagline": "Stavím věci, na kterých záleží.",
+    "subtitle": "Studentský zakladatel, builder a průzkumník. Přeměňuji nápady ve skutečné produkty.",
+    "currentFocus": "Aktuální zaměření",
+    "currentFocusText": "Pracuji na dalším projektu. Zkoumám B2B SaaS, udržitelné technologie a průnik byznysu a dopadu.",
+    "featuredProjects": "Vybrané projekty",
+    "viewAll": "Zobrazit vše",
+    "recentTimeline": "Nedávná cesta",
+    "photographyPreview": "Přes objektiv",
+    "getInTouch": "Pojďme se spojit",
+    "getInTouchText": "Vždy otevřený konverzacím o startupech, mentorství a nových nápadech."
+  },
+  "about": {
+    "title": "O mně",
+    "bio": "Mladý builder navigující prostor mezi technologií, byznysem a dopadem.",
+    "philosophy": "Filosofie",
+    "philosophyText": "Věřím, že nejlepší způsob učení je dělání. Každý projekt je lekce, každý neúspěch jsou data a každé spojení je příležitost.",
+    "connect": "Spojit se",
+    "links": "Odkazy"
+  },
+  "projects": {
+    "title": "Projekty",
+    "subtitle": "Věci, které jsem postavil, prozkoumal a spustil.",
+    "filterAll": "Vše",
+    "noProjects": "Žádné projekty nenalezeny.",
+    "relatedProjects": "Související projekty"
+  },
+  "work": {
+    "title": "Práce",
+    "subtitle": "Mentorství, spolupráce a role.",
+    "noEntries": "Žádné záznamy o práci."
+  },
+  "photography": {
+    "title": "Fotografie",
+    "subtitle": "Momenty zachycené cestou.",
+    "noPhotos": "Zatím žádné fotky."
+  },
+  "timeline": {
+    "title": "Časová osa",
+    "subtitle": "Cesta zatím — milníky, události a zlomové body."
+  },
+  "contact": {
+    "title": "Ozvěte se",
+    "subtitle": "Máte nápad, otázku, nebo se jen chcete pozdravit?",
+    "email": "E-mail",
+    "sendMessage": "Odeslat zprávu",
+    "namePlaceholder": "Vaše jméno",
+    "emailPlaceholder": "vas@email.com",
+    "messagePlaceholder": "Co máte na mysli?",
+    "social": "Sociální sítě"
+  },
+  "footer": {
+    "navTitle": "Navigace",
+    "socialTitle": "Sociální sítě",
+    "builtWith": "Postaveno na Next.js",
+    "linkedin": "LinkedIn",
+    "instagram": "Instagram",
+    "email": "E-mail",
+    "copyright": "© {year} {name}. Všechna práva vyhrazena."
+  },
+  "common": {
+    "readMore": "Číst dále",
+    "backTo": "Zpět na",
+    "language": "Jazyk",
+    "english": "English",
+    "czech": "Čeština",
+    "builtBy": "Vytvořil",
+    "allRights": "Všechna práva vyhrazena."
+  }
+}

@@ -1,0 +1,129 @@
+backend:
+  name: github
+  repo: YOUR_USERNAME/YOUR_REPO
+  branch: main
+
+media_folder: public/images
+public_folder: /images
+
+collections:
+  - name: projects
+    label: Projects
+    folder: content/projects
+    create: true
+    extension: mdx
+    format: frontmatter
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: string, hint: "Format: YYYY-MM (e.g. 2024-08)" }
+      - { label: Location, name: location, widget: string, required: false }
+      - { label: Category, name: category, widget: string }
+      - {
+          label: Tags,
+          name: tags,
+          widget: list,
+          allow_add: true,
+          field: { label: Tag, name: tag, widget: string },
+        }
+      - { label: Cover Image, name: coverImage, widget: image, required: false }
+      - { label: Excerpt, name: excerpt, widget: text, required: false }
+      - {
+          label: Language,
+          name: language,
+          widget: select,
+          options: ["en", "cs"],
+          default: "en",
+        }
+      - { label: Featured, name: featured, widget: boolean, default: false }
+      - { label: Startup, name: startup, widget: string, required: false }
+      - { label: Topic, name: topic, widget: string, required: false }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: work
+    label: Work
+    folder: content/work
+    create: true
+    extension: mdx
+    format: frontmatter
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: string, hint: "Format: YYYY-MM" }
+      - { label: Role, name: role, widget: string, required: false }
+      - { label: Organization, name: organization, widget: string, required: false }
+      - { label: Period, name: period, widget: string, required: false }
+      - { label: Category, name: category, widget: string, required: false }
+      - {
+          label: Tags,
+          name: tags,
+          widget: list,
+          allow_add: true,
+          required: false,
+          field: { label: Tag, name: tag, widget: string },
+        }
+      - { label: Cover Image, name: coverImage, widget: image, required: false }
+      - { label: Excerpt, name: excerpt, widget: text, required: false }
+      - {
+          label: Language,
+          name: language,
+          widget: select,
+          options: ["en", "cs"],
+          default: "en",
+        }
+      - { label: Featured, name: featured, widget: boolean, default: false }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: photography
+    label: Photography
+    folder: content/photography
+    create: true
+    extension: mdx
+    format: frontmatter
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: string }
+      - { label: Album, name: album, widget: string, required: false }
+      - { label: Camera, name: camera, widget: string, required: false }
+      - {
+          label: Aspect Ratio,
+          name: aspectRatio,
+          widget: select,
+          options: ["landscape", "portrait", "square"],
+          required: false,
+        }
+      - { label: Cover Image, name: coverImage, widget: image, required: false }
+      - { label: Excerpt, name: excerpt, widget: text, required: false }
+      - {
+          label: Tags,
+          name: tags,
+          widget: list,
+          allow_add: true,
+          required: false,
+          field: { label: Tag, name: tag, widget: string },
+        }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: timeline
+    label: Timeline
+    folder: content/timeline
+    create: true
+    extension: mdx
+    format: frontmatter
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: string, hint: "Format: YYYY-MM" }
+      - { label: Category, name: category, widget: string }
+      - { label: Link, name: link, widget: string, required: false, hint: "Internal path like /projects/my-project or full URL" }
+      - { label: Excerpt, name: excerpt, widget: text, required: false }
+      - {
+          label: Tags,
+          name: tags,
+          widget: list,
+          allow_add: true,
+          required: false,
+          field: { label: Tag, name: tag, widget: string },
+        }
+      - { label: Body, name: body, widget: markdown }

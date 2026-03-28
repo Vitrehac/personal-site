@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "work": "Work",
+    "photography": "Photography",
+    "timeline": "Timeline",
+    "contact": "Contact"
+  },
+  "home": {
+    "greeting": "Hey, I'm",
+    "name": "Your Name",
+    "tagline": "Building things that matter.",
+    "subtitle": "Student founder, builder, and explorer. Turning ideas into real products.",
+    "currentFocus": "Current Focus",
+    "currentFocusText": "Working on the next venture. Exploring B2B SaaS, sustainability tech, and the intersection of business and impact.",
+    "featuredProjects": "Featured Projects",
+    "viewAll": "View all",
+    "recentTimeline": "Recent Journey",
+    "photographyPreview": "Through the Lens",
+    "getInTouch": "Let's Connect",
+    "getInTouchText": "Always open to conversations about startups, mentorship, and new ideas."
+  },
+  "about": {
+    "title": "About",
+    "bio": "A young builder navigating the space between technology, business, and impact.",
+    "philosophy": "Philosophy",
+    "philosophyText": "I believe the best way to learn is by doing. Every project is a lesson, every failure is data, and every connection is an opportunity.",
+    "connect": "Connect",
+    "links": "Links"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Things I've built, explored, and shipped.",
+    "filterAll": "All",
+    "noProjects": "No projects found.",
+    "relatedProjects": "Related Projects"
+  },
+  "work": {
+    "title": "Work",
+    "subtitle": "Mentorships, collaborations, and roles.",
+    "noEntries": "No work entries found."
+  },
+  "photography": {
+    "title": "Photography",
+    "subtitle": "Moments captured along the way.",
+    "noPhotos": "No photos yet."
+  },
+  "timeline": {
+    "title": "Timeline",
+    "subtitle": "The journey so far — milestones, events, and turning points."
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have an idea, question, or just want to say hi?",
+    "email": "Email",
+    "sendMessage": "Send Message",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "your@email.com",
+    "messagePlaceholder": "What's on your mind?",
+    "social": "Social"
+  },
+  "footer": {
+    "navTitle": "Navigation",
+    "socialTitle": "Social",
+    "builtWith": "Built with Next.js",
+    "linkedin": "LinkedIn",
+    "instagram": "Instagram",
+    "email": "Email",
+    "copyright": "© {year} {name}. All rights reserved."
+  },
+  "common": {
+    "readMore": "Read more",
+    "backTo": "Back to",
+    "language": "Language",
+    "english": "English",
+    "czech": "Čeština",
+    "builtBy": "Built by",
+    "allRights": "All rights reserved."
+  }
+}
