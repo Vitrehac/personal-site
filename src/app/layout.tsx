@@ -4,13 +4,13 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "Your Name — Builder & Founder",
-    template: "%s | Your Name",
+    default: "Vit Rehacek — Builder & Founder",
+    template: "%s | Vit Rehacek",
   },
   description:
     "Student founder, builder, and explorer. Building things that matter.",
   openGraph: {
-    title: "Your Name — Builder & Founder",
+    title: "Vit Rehacek — Builder & Founder",
     description:
       "Student founder, builder, and explorer. Building things that matter.",
     type: "website",
